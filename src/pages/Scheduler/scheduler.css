@@ -1,0 +1,108 @@
+.scheduler-container {
+    background-color: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+
+nav {
+    align-items: center;
+    background-color: #03223F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.4em;
+    text-align: center;
+}
+
+nav h1 {
+    color: #E19F41;
+    font-weight: 700;
+    font-size: 1.6em;
+}
+
+nav span {
+    width: 56px;
+}
+
+.input-box {
+    margin: 0 0 0.8em;
+}
+
+.scheduler-content-centralized {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.scheduler-content-title {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #E19F41;
+    border-radius: 0.2em;
+    justify-content: center;
+    margin-bottom: 1em;
+    padding: 1em;
+    width: 100%;
+}
+
+.scheduler-content-title h2 {
+    color: #03223F;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.scheduler-content-title h3 {
+    color: #04294d;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.scheduler-content-footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80%;
+    margin: auto;
+}
+
+.scheduler-content-footer span {
+    margin: 0.2em 0;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.scheduler-content-tables {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 2em;
+}
+
+.icon-rotation {
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% {
+        -moz-transform: rotate(360deg); 
+    }
+}
+@-webkit-keyframes spin { 
+    100% {
+        -webkit-transform: rotate(360deg); 
+    }
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
