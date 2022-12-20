@@ -1,6 +1,6 @@
 # Getting Started
 
-This project was done as the last work for the discipline of operating systems (UFBA 2022.2).
+- This project was done as the last work for the discipline of operating systems (UFBA 2022.2).
 ![scheduler-app-gif](https://user-images.githubusercontent.com/62779767/208787459-1c83eca9-364c-4f6e-8704-20aa1de01e06.gif)
 
 ## Available Scripts
